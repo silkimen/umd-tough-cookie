@@ -1,0 +1,19 @@
+{
+  "name": "umd-tough-cookie",
+  "version": "2.3.2",
+  "description": "tough-cookie as UMD module for usage in browsers",
+  "main": "lib/umd-tough-cookie.js",
+  "scripts": {
+    "test": "jasmine specs/*.spec.js",
+    "build": "webpack",
+    "prepublish": "npm run test && npm run build"
+  },
+  "author": "Sefa Ilkimen <sefa.ilkimen@mobisys.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "json-loader": "^0.5.4",
+    "tough-cookie": "2.3.2",
+    "webpack": "^1.13.3"
+  }
+}
