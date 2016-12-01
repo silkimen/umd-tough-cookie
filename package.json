@@ -15,5 +15,24 @@
     "json-loader": "^0.5.4",
     "tough-cookie": "2.3.2",
     "webpack": "^1.13.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silkimen/umd-tough-cookie.git"
+  },
+  "keywords": [
+    "HTTP",
+    "cookie",
+    "cookies",
+    "set-cookie",
+    "cookiejar",
+    "jar",
+    "RFC6265",
+    "RFC2965",
+    "umd"
+  ],
+  "bugs": {
+    "url": "https://github.com/silkimen/umd-tough-cookie/issues"
+  },
+  "homepage": "https://github.com/silkimen/umd-tough-cookie#readme"
 }
