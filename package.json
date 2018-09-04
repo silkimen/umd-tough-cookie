@@ -1,6 +1,6 @@
 {
   "name": "umd-tough-cookie",
-  "version": "2.3.3",
+  "version": "2.3.4",
   "description": "tough-cookie as UMD module for usage in browsers",
   "main": "lib/umd-tough-cookie.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "devDependencies": {
     "jasmine": "^2.5.2",
     "json-loader": "^0.5.4",
-    "tough-cookie": "2.3.3",
+    "tough-cookie": "2.3.4",
     "webpack": "^1.13.3"
   },
   "repository": {
