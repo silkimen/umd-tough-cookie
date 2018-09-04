@@ -5,8 +5,7 @@
   "main": "lib/umd-tough-cookie.js",
   "scripts": {
     "test": "jasmine specs/*.spec.js",
-    "build": "webpack",
-    "prepublish": "npm run test && npm run build"
+    "build": "webpack"
   },
   "author": "Sefa Ilkimen <sefa.ilkimen@mobisys.de>",
   "license": "MIT",
