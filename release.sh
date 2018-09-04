@@ -28,6 +28,6 @@ npm run test &&
 npm run build &&
 git commit -a -m "release v$VERSION" &&
 git tag "v$VERSION" &&
-npm publish
-echo Successfully finished creating Tough Cookie UMD module v$VERSION &&
+npm publish &&
+echo Successfully finished creating Tough Cookie UMD module v$VERSION
 popd
